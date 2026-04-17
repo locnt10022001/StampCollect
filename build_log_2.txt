@@ -1,0 +1,217 @@
+Initialized native services in: /Users/iamthanhloc/.gradle/native
+Initialized jansi services in: /Users/iamthanhloc/.gradle/native
+The client will now receive all logging from the daemon (pid: 85032). The daemon log file: /Users/iamthanhloc/.gradle/daemon/9.2.1/daemon-85032.out.log
+Starting 102nd build in daemon [uptime: 45 mins 5.987 secs, performance: 95%, GC rate: 0.00/s, heap usage: 0% of 2 GiB]
+Using 8 worker leases.
+Operational build model parameters: {requiresToolingModels=false, parallelProjectExecution=false, configureOnDemand=false, configurationCache=false, configurationCacheParallelStore=false, configurationCacheParallelLoad=true, isolatedProjects=false, parallelProjectConfiguration=false, intermediateModelCache=false, parallelToolingApiActions=false, invalidateCoupledProjects=false, modelAsProjectDependency=false, resilientModelBuilding=false}
+Now considering [/Users/iamthanhloc/AndroidStudioProjects/TempCollect] as hierarchies to watch
+Watching the file system is configured to be enabled if available
+File system watching is active
+Starting Build
+Resolved plugin [id: 'org.gradle.toolchains.foojay-resolver-convention', version: '1.0.0']
+Settings evaluated using settings file '/Users/iamthanhloc/AndroidStudioProjects/TempCollect/settings.gradle.kts'.
+Projects loaded. Root project using build file '/Users/iamthanhloc/AndroidStudioProjects/TempCollect/build.gradle.kts'.
+Included projects: [root project 'StampCollect', project ':app']
+
+> Configure project :
+Evaluating root project 'StampCollect' using build file '/Users/iamthanhloc/AndroidStudioProjects/TempCollect/build.gradle.kts'.
+Resolved plugin [id: 'com.android.application', version: '8.3.1', apply: false]
+Resolved plugin [id: 'org.jetbrains.kotlin.android', version: '1.9.22', apply: false]
+Resolved plugin [id: 'com.google.dagger.hilt.android', version: '2.51.1', apply: false]
+Resolved plugin [id: 'com.google.devtools.ksp', version: '1.9.22-1.0.17', apply: false]
+
+> Configure project :app
+Evaluating project ':app' using build file '/Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/build.gradle.kts'.
+Resolved plugin [id: 'com.android.application', version: '8.3.1']
+Resolved plugin [id: 'org.jetbrains.kotlin.android', version: '1.9.22']
+Resolved plugin [id: 'com.google.dagger.hilt.android', version: '2.51.1']
+Resolved plugin [id: 'com.google.devtools.ksp', version: '1.9.22-1.0.17']
+Using default execution profile
+Using Kotlin Gradle Plugin gradle82 variant
+All projects evaluated.
+Task path ':app:kspDebugKotlin' matched project ':app'
+Task name matched 'kspDebugKotlin'
+Selected primary task 'kspDebugKotlin' from project :app
+Tasks to be executed: [task ':app:checkKotlinGradlePluginConfigurationErrors', task ':app:preBuild', task ':app:preDebugBuild', task ':app:checkDebugAarMetadata', task ':app:generateDebugResValues', task ':app:mapDebugSourceSetPaths', task ':app:generateDebugResources', task ':app:mergeDebugResources', task ':app:packageDebugResources', task ':app:parseDebugLocalResources', task ':app:createDebugCompatibleScreenManifests', task ':app:extractDeepLinksDebug', task ':app:processDebugMainManifest', task ':app:processDebugManifest', task ':app:processDebugManifestForPackage', task ':app:processDebugResources', task ':app:kspDebugKotlin']
+Tasks that were excluded: []
+Resolve mutations for :app:checkKotlinGradlePluginConfigurationErrors (Thread[#4133,Execution worker,5,main]) started.
+:app:checkKotlinGradlePluginConfigurationErrors (Thread[#4133,Execution worker,5,main]) started.
+
+> Task :app:checkKotlinGradlePluginConfigurationErrors
+Caching disabled for task ':app:checkKotlinGradlePluginConfigurationErrors' because:
+  Build cache is disabled
+Task ':app:checkKotlinGradlePluginConfigurationErrors' is not up-to-date because:
+  Task has not declared any outputs despite executing actions.
+Resolve mutations for :app:preBuild (Thread[#4133,Execution worker,5,main]) started.
+:app:preBuild (Thread[#4133,Execution worker,5,main]) started.
+
+> Task :app:preBuild UP-TO-DATE
+Skipping task ':app:preBuild' as it has no actions.
+Resolve mutations for :app:preDebugBuild (Thread[#4133,Execution worker,5,main]) started.
+:app:preDebugBuild (Thread[#4133,Execution worker,5,main]) started.
+
+> Task :app:preDebugBuild UP-TO-DATE
+Skipping task ':app:preDebugBuild' as it has no actions.
+Resolve mutations for :app:checkDebugAarMetadata (Thread[#4133,Execution worker,5,main]) started.
+:app:checkDebugAarMetadata (Thread[#4133,Execution worker,5,main]) started.
+
+> Task :app:checkDebugAarMetadata UP-TO-DATE
+Caching disabled for task ':app:checkDebugAarMetadata' because:
+  Build cache is disabled
+  Caching has been disabled for the task
+Skipping task ':app:checkDebugAarMetadata' as it is up-to-date.
+Resolve mutations for :app:generateDebugResValues (Thread[#4133,Execution worker,5,main]) started.
+:app:generateDebugResValues (Thread[#4133,Execution worker,5,main]) started.
+
+> Task :app:generateDebugResValues UP-TO-DATE
+Caching disabled for task ':app:generateDebugResValues' because:
+  Build cache is disabled
+Skipping task ':app:generateDebugResValues' as it is up-to-date.
+Resolve mutations for :app:mapDebugSourceSetPaths (Thread[#4133,Execution worker,5,main]) started.
+:app:mapDebugSourceSetPaths (Thread[#4133,Execution worker,5,main]) started.
+
+> Task :app:mapDebugSourceSetPaths UP-TO-DATE
+Caching disabled for task ':app:mapDebugSourceSetPaths' because:
+  Build cache is disabled
+  Caching has been disabled for the task
+Skipping task ':app:mapDebugSourceSetPaths' as it is up-to-date.
+Resolve mutations for :app:generateDebugResources (Thread[#4133,Execution worker,5,main]) started.
+:app:generateDebugResources (Thread[#4133,Execution worker,5,main]) started.
+
+> Task :app:generateDebugResources UP-TO-DATE
+Caching disabled for task ':app:generateDebugResources' because:
+  Build cache is disabled
+Skipping task ':app:generateDebugResources' as it is up-to-date.
+Resolve mutations for :app:mergeDebugResources (Thread[#4133,Execution worker,5,main]) started.
+:app:mergeDebugResources (Thread[#4133,Execution worker,5,main]) started.
+
+> Task :app:mergeDebugResources UP-TO-DATE
+Caching disabled for task ':app:mergeDebugResources' because:
+  Build cache is disabled
+Skipping task ':app:mergeDebugResources' as it is up-to-date.
+Resolve mutations for :app:packageDebugResources (Thread[#4133,Execution worker,5,main]) started.
+:app:packageDebugResources (Thread[#4133,Execution worker,5,main]) started.
+
+> Task :app:packageDebugResources UP-TO-DATE
+Caching disabled for task ':app:packageDebugResources' because:
+  Build cache is disabled
+Skipping task ':app:packageDebugResources' as it is up-to-date.
+Resolve mutations for :app:parseDebugLocalResources (Thread[#4133,Execution worker,5,main]) started.
+:app:parseDebugLocalResources (Thread[#4133,Execution worker,5,main]) started.
+
+> Task :app:parseDebugLocalResources UP-TO-DATE
+Caching disabled for task ':app:parseDebugLocalResources' because:
+  Build cache is disabled
+Skipping task ':app:parseDebugLocalResources' as it is up-to-date.
+Resolve mutations for :app:createDebugCompatibleScreenManifests (Thread[#4133,Execution worker,5,main]) started.
+:app:createDebugCompatibleScreenManifests (Thread[#4133,Execution worker,5,main]) started.
+
+> Task :app:createDebugCompatibleScreenManifests UP-TO-DATE
+Caching disabled for task ':app:createDebugCompatibleScreenManifests' because:
+  Build cache is disabled
+  Caching has been disabled for the task
+Skipping task ':app:createDebugCompatibleScreenManifests' as it is up-to-date.
+Resolve mutations for :app:extractDeepLinksDebug (Thread[#4133,Execution worker,5,main]) started.
+:app:extractDeepLinksDebug (Thread[#4133,Execution worker,5,main]) started.
+
+> Task :app:extractDeepLinksDebug UP-TO-DATE
+Caching disabled for task ':app:extractDeepLinksDebug' because:
+  Build cache is disabled
+Skipping task ':app:extractDeepLinksDebug' as it is up-to-date.
+Resolve mutations for :app:processDebugMainManifest (Thread[#4133,Execution worker,5,main]) started.
+:app:processDebugMainManifest (Thread[#4133,Execution worker,5,main]) started.
+
+> Task :app:processDebugMainManifest UP-TO-DATE
+Caching disabled for task ':app:processDebugMainManifest' because:
+  Build cache is disabled
+Skipping task ':app:processDebugMainManifest' as it is up-to-date.
+Resolve mutations for :app:processDebugManifest (Thread[#4133,Execution worker,5,main]) started.
+:app:processDebugManifest (Thread[#4133,Execution worker,5,main]) started.
+
+> Task :app:processDebugManifest UP-TO-DATE
+Caching disabled for task ':app:processDebugManifest' because:
+  Build cache is disabled
+Skipping task ':app:processDebugManifest' as it is up-to-date.
+Resolve mutations for :app:processDebugManifestForPackage (Thread[#4133,Execution worker,5,main]) started.
+:app:processDebugManifestForPackage (Thread[#4133,Execution worker,5,main]) started.
+
+> Task :app:processDebugManifestForPackage UP-TO-DATE
+Custom actions are attached to task ':app:processDebugManifestForPackage'.
+Caching disabled for task ':app:processDebugManifestForPackage' because:
+  Build cache is disabled
+Skipping task ':app:processDebugManifestForPackage' as it is up-to-date.
+Resolve mutations for :app:processDebugResources (Thread[#4133,Execution worker,5,main]) started.
+:app:processDebugResources (Thread[#4133,Execution worker,5,main]) started.
+
+> Task :app:processDebugResources UP-TO-DATE
+Caching disabled for task ':app:processDebugResources' because:
+  Build cache is disabled
+Skipping task ':app:processDebugResources' as it is up-to-date.
+Resolve mutations for :app:kspDebugKotlin (Thread[#4133,Execution worker,5,main]) started.
+:app:kspDebugKotlin (Thread[#4133,Execution worker,5,main]) started.
+
+> Task :app:kspDebugKotlin FAILED
+file or directory '/Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/src/debug/kotlin', not found
+file or directory '/Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/src/debug/java', not found
+file or directory '/Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/src/main/kotlin', not found
+file or directory '/Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/src/debug/kotlin', not found
+file or directory '/Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/src/debug/java', not found
+file or directory '/Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/src/main/kotlin', not found
+Caching disabled for task ':app:kspDebugKotlin' because:
+  Build cache is disabled
+Task ':app:kspDebugKotlin' is not up-to-date because:
+  Task has failed previously.
+The input changes require a full rebuild for incremental task ':app:kspDebugKotlin'.
+file or directory '/Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/src/debug/kotlin', not found
+file or directory '/Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/src/debug/java', not found
+file or directory '/Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/src/main/kotlin', not found
+file or directory '/Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/src/debug/kotlin', not found
+file or directory '/Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/src/debug/java', not found
+file or directory '/Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/src/main/kotlin', not found
+file or directory '/Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/src/debug/kotlin', not found
+file or directory '/Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/src/debug/java', not found
+file or directory '/Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/src/main/kotlin', not found
+file or directory '/Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/src/debug/kotlin', not found
+file or directory '/Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/src/debug/java', not found
+file or directory '/Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/src/main/kotlin', not found
+file or directory '/Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/src/debug/kotlin', not found
+file or directory '/Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/src/debug/java', not found
+file or directory '/Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/src/main/kotlin', not found
+Kotlin source files: /Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/src/main/java/com/stampcollect/ui/viewmodel/CollectionViewModel.kt, /Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/src/main/java/com/stampcollect/ui/viewmodel/BaseViewModel.kt, /Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/src/main/java/com/stampcollect/ui/navigation/AppNavigation.kt, /Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/src/main/java/com/stampcollect/ui/screens/CollectionDetailScreen.kt, /Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/src/main/java/com/stampcollect/ui/screens/CameraScreen.kt, /Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/src/main/java/com/stampcollect/ui/screens/StampDetailScreen.kt, /Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/src/main/java/com/stampcollect/ui/screens/DayStampsScreen.kt, /Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/src/main/java/com/stampcollect/ui/screens/CalendarScreen.kt, /Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/src/main/java/com/stampcollect/ui/screens/HomeScreen.kt, /Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/src/main/java/com/stampcollect/ui/screens/MainScreen.kt, /Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/src/main/java/com/stampcollect/ui/theme/Color.kt, /Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/src/main/java/com/stampcollect/ui/theme/Theme.kt, /Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/src/main/java/com/stampcollect/ui/theme/Type.kt, /Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/src/main/java/com/stampcollect/MainActivity.kt, /Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/src/main/java/com/stampcollect/di/AppModule.kt, /Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/src/main/java/com/stampcollect/util/StampImageHelper.kt, /Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/src/main/java/com/stampcollect/util/StampShareHelper.kt, /Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/src/main/java/com/stampcollect/util/EncryptUtil.kt, /Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/src/main/java/com/stampcollect/util/LocationHelper.kt, /Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/src/main/java/com/stampcollect/TempCollectApplication.kt, /Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/src/main/java/com/stampcollect/data/repository/StampRepository.kt, /Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/src/main/java/com/stampcollect/data/repository/Resource.kt, /Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/src/main/java/com/stampcollect/data/entity/StampEntity.kt, /Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/src/main/java/com/stampcollect/data/entity/CategoryEntity.kt, /Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/src/main/java/com/stampcollect/data/entity/CollectionEntity.kt, /Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/src/main/java/com/stampcollect/data/dao/StampDao.kt, /Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/src/main/java/com/stampcollect/data/dao/CollectionDao.kt, /Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/src/main/java/com/stampcollect/data/dao/CategoryDao.kt, /Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/src/main/java/com/stampcollect/data/exceptions/AppException.kt, /Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/src/main/java/com/stampcollect/data/StampDatabase.kt
+Java source files: 
+Script source files: 
+Script file extensions: 
+[KOTLIN] Kotlin compilation 'jdkHome' argument: null
+i: found daemon on port 17098 (1987247 ms old), trying to connect
+i: connected to the daemon
+i: [ksp] loaded provider(s): [dagger.hilt.processor.internal.uninstallmodules.KspUninstallModulesProcessor$Provider, dagger.hilt.android.processor.internal.customtestapplication.KspCustomTestApplicationProcessor$Provider, dagger.hilt.processor.internal.aliasof.KspAliasOfProcessor$Provider, dagger.hilt.android.processor.internal.viewmodel.KspViewModelProcessor$Provider, dagger.hilt.processor.internal.earlyentrypoint.KspEarlyEntryPointProcessor$Provider, dagger.hilt.processor.internal.generatesrootinput.KspGeneratesRootInputProcessor$Provider, dagger.hilt.android.processor.internal.androidentrypoint.KspAndroidEntryPointProcessor$Provider, dagger.hilt.processor.internal.originatingelement.KspOriginatingElementProcessor$Provider, dagger.hilt.android.processor.internal.bindvalue.KspBindValueProcessor$Provider, dagger.hilt.processor.internal.definecomponent.KspDefineComponentProcessor$Provider, dagger.hilt.processor.internal.root.KspRootProcessor$Provider, dagger.hilt.processor.internal.aggregateddeps.KspAggregatedDepsProcessor$Provider, dagger.hilt.processor.internal.root.KspComponentTreeDepsProcessor$Provider, androidx.room.RoomKspProcessor$Provider, dagger.internal.codegen.KspComponentProcessor$Provider]
+w: [ksp] /Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/src/main/java/com/stampcollect/data/entity/StampEntity.kt:18: collectionId column references a foreign key but it is not part of an index. This may trigger full table scans whenever parent table is modified so you are highly advised to create an index that covers this column.
+e: file:///Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/src/main/java/com/stampcollect/ui/screens/HomeScreen.kt:225:11 Unexpected tokens (use ';' to separate expressions on the same line)
+e: file:///Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/src/main/java/com/stampcollect/ui/screens/HomeScreen.kt:229:11 Unexpected tokens (use ';' to separate expressions on the same line)
+e: file:///Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/src/main/java/com/stampcollect/ui/screens/HomeScreen.kt:237:11 Unexpected tokens (use ';' to separate expressions on the same line)
+e: file:///Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/src/main/java/com/stampcollect/ui/screens/HomeScreen.kt:486:2 Expecting '}'
+
+[Incubating] Problems report is available at: file:///Users/iamthanhloc/AndroidStudioProjects/TempCollect/build/reports/problems/problems-report.html
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:kspDebugKotlin'.
+> A failure occurred while executing org.jetbrains.kotlin.compilerRunner.GradleCompilerRunnerWithWorkers$GradleKotlinCompilerWorkAction
+   > Compilation error. See log for more details
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --debug option to get more log output.
+> Run with --scan to generate a Build Scan (powered by Develocity).
+> Get more help at https://help.gradle.org.
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 10.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/9.2.1/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD FAILED in 2s
+15 actionable tasks: 2 executed, 13 up-to-date
+Watched directory hierarchies: [/Users/iamthanhloc/AndroidStudioProjects/TempCollect]

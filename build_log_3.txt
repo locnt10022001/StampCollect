@@ -1,0 +1,260 @@
+Initialized native services in: /Users/iamthanhloc/.gradle/native
+Initialized jansi services in: /Users/iamthanhloc/.gradle/native
+The client will now receive all logging from the daemon (pid: 85032). The daemon log file: /Users/iamthanhloc/.gradle/daemon/9.2.1/daemon-85032.out.log
+Starting 107th build in daemon [uptime: 47 mins 14.48 secs, performance: 95%, GC rate: 0.00/s, heap usage: 0% of 2 GiB]
+Using 8 worker leases.
+Operational build model parameters: {requiresToolingModels=false, parallelProjectExecution=false, configureOnDemand=false, configurationCache=false, configurationCacheParallelStore=false, configurationCacheParallelLoad=true, isolatedProjects=false, parallelProjectConfiguration=false, intermediateModelCache=false, parallelToolingApiActions=false, invalidateCoupledProjects=false, modelAsProjectDependency=false, resilientModelBuilding=false}
+Now considering [/Users/iamthanhloc/AndroidStudioProjects/TempCollect] as hierarchies to watch
+Watching the file system is configured to be enabled if available
+File system watching is active
+Starting Build
+Resolved plugin [id: 'org.gradle.toolchains.foojay-resolver-convention', version: '1.0.0']
+Settings evaluated using settings file '/Users/iamthanhloc/AndroidStudioProjects/TempCollect/settings.gradle.kts'.
+Projects loaded. Root project using build file '/Users/iamthanhloc/AndroidStudioProjects/TempCollect/build.gradle.kts'.
+Included projects: [root project 'StampCollect', project ':app']
+
+> Configure project :
+Evaluating root project 'StampCollect' using build file '/Users/iamthanhloc/AndroidStudioProjects/TempCollect/build.gradle.kts'.
+Resolved plugin [id: 'com.android.application', version: '8.3.1', apply: false]
+Resolved plugin [id: 'org.jetbrains.kotlin.android', version: '1.9.22', apply: false]
+Resolved plugin [id: 'com.google.dagger.hilt.android', version: '2.51.1', apply: false]
+Resolved plugin [id: 'com.google.devtools.ksp', version: '1.9.22-1.0.17', apply: false]
+
+> Configure project :app
+Evaluating project ':app' using build file '/Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/build.gradle.kts'.
+Resolved plugin [id: 'com.android.application', version: '8.3.1']
+Resolved plugin [id: 'org.jetbrains.kotlin.android', version: '1.9.22']
+Resolved plugin [id: 'com.google.dagger.hilt.android', version: '2.51.1']
+Resolved plugin [id: 'com.google.devtools.ksp', version: '1.9.22-1.0.17']
+Using default execution profile
+Using Kotlin Gradle Plugin gradle82 variant
+All projects evaluated.
+Task path ':app:compileDebugKotlin' matched project ':app'
+Task name matched 'compileDebugKotlin'
+Selected primary task 'compileDebugKotlin' from project :app
+Tasks to be executed: [task ':app:checkKotlinGradlePluginConfigurationErrors', task ':app:preBuild', task ':app:preDebugBuild', task ':app:checkDebugAarMetadata', task ':app:generateDebugResValues', task ':app:mapDebugSourceSetPaths', task ':app:generateDebugResources', task ':app:mergeDebugResources', task ':app:packageDebugResources', task ':app:parseDebugLocalResources', task ':app:createDebugCompatibleScreenManifests', task ':app:extractDeepLinksDebug', task ':app:processDebugMainManifest', task ':app:processDebugManifest', task ':app:processDebugManifestForPackage', task ':app:processDebugResources', task ':app:kspDebugKotlin', task ':app:compileDebugKotlin']
+Tasks that were excluded: []
+Resolve mutations for :app:checkKotlinGradlePluginConfigurationErrors (Thread[#4396,Execution worker,5,main]) started.
+:app:checkKotlinGradlePluginConfigurationErrors (Thread[#4396,Execution worker,5,main]) started.
+
+> Task :app:checkKotlinGradlePluginConfigurationErrors
+Caching disabled for task ':app:checkKotlinGradlePluginConfigurationErrors' because:
+  Build cache is disabled
+Task ':app:checkKotlinGradlePluginConfigurationErrors' is not up-to-date because:
+  Task has not declared any outputs despite executing actions.
+Resolve mutations for :app:preBuild (Thread[#4396,Execution worker,5,main]) started.
+:app:preBuild (Thread[#4396,Execution worker,5,main]) started.
+
+> Task :app:preBuild UP-TO-DATE
+Skipping task ':app:preBuild' as it has no actions.
+Resolve mutations for :app:preDebugBuild (Thread[#4396,Execution worker,5,main]) started.
+:app:preDebugBuild (Thread[#4398,Execution worker Thread 3,5,main]) started.
+
+> Task :app:preDebugBuild UP-TO-DATE
+Skipping task ':app:preDebugBuild' as it has no actions.
+Resolve mutations for :app:checkDebugAarMetadata (Thread[#4398,Execution worker Thread 3,5,main]) started.
+:app:checkDebugAarMetadata (Thread[#4398,Execution worker Thread 3,5,main]) started.
+
+> Task :app:checkDebugAarMetadata UP-TO-DATE
+Caching disabled for task ':app:checkDebugAarMetadata' because:
+  Build cache is disabled
+  Caching has been disabled for the task
+Skipping task ':app:checkDebugAarMetadata' as it is up-to-date.
+Resolve mutations for :app:generateDebugResValues (Thread[#4398,Execution worker Thread 3,5,main]) started.
+:app:generateDebugResValues (Thread[#4398,Execution worker Thread 3,5,main]) started.
+
+> Task :app:generateDebugResValues UP-TO-DATE
+Caching disabled for task ':app:generateDebugResValues' because:
+  Build cache is disabled
+Skipping task ':app:generateDebugResValues' as it is up-to-date.
+Resolve mutations for :app:mapDebugSourceSetPaths (Thread[#4398,Execution worker Thread 3,5,main]) started.
+:app:mapDebugSourceSetPaths (Thread[#4398,Execution worker Thread 3,5,main]) started.
+
+> Task :app:mapDebugSourceSetPaths UP-TO-DATE
+Caching disabled for task ':app:mapDebugSourceSetPaths' because:
+  Build cache is disabled
+  Caching has been disabled for the task
+Skipping task ':app:mapDebugSourceSetPaths' as it is up-to-date.
+Resolve mutations for :app:generateDebugResources (Thread[#4398,Execution worker Thread 3,5,main]) started.
+:app:generateDebugResources (Thread[#4398,Execution worker Thread 3,5,main]) started.
+
+> Task :app:generateDebugResources UP-TO-DATE
+Caching disabled for task ':app:generateDebugResources' because:
+  Build cache is disabled
+Skipping task ':app:generateDebugResources' as it is up-to-date.
+Resolve mutations for :app:mergeDebugResources (Thread[#4398,Execution worker Thread 3,5,main]) started.
+:app:mergeDebugResources (Thread[#4398,Execution worker Thread 3,5,main]) started.
+
+> Task :app:mergeDebugResources UP-TO-DATE
+Caching disabled for task ':app:mergeDebugResources' because:
+  Build cache is disabled
+Skipping task ':app:mergeDebugResources' as it is up-to-date.
+Resolve mutations for :app:packageDebugResources (Thread[#4398,Execution worker Thread 3,5,main]) started.
+:app:packageDebugResources (Thread[#4398,Execution worker Thread 3,5,main]) started.
+
+> Task :app:packageDebugResources UP-TO-DATE
+Caching disabled for task ':app:packageDebugResources' because:
+  Build cache is disabled
+Skipping task ':app:packageDebugResources' as it is up-to-date.
+Resolve mutations for :app:parseDebugLocalResources (Thread[#4398,Execution worker Thread 3,5,main]) started.
+:app:parseDebugLocalResources (Thread[#4398,Execution worker Thread 3,5,main]) started.
+
+> Task :app:parseDebugLocalResources UP-TO-DATE
+Caching disabled for task ':app:parseDebugLocalResources' because:
+  Build cache is disabled
+Skipping task ':app:parseDebugLocalResources' as it is up-to-date.
+Resolve mutations for :app:createDebugCompatibleScreenManifests (Thread[#4398,Execution worker Thread 3,5,main]) started.
+:app:createDebugCompatibleScreenManifests (Thread[#4398,Execution worker Thread 3,5,main]) started.
+
+> Task :app:createDebugCompatibleScreenManifests UP-TO-DATE
+Caching disabled for task ':app:createDebugCompatibleScreenManifests' because:
+  Build cache is disabled
+  Caching has been disabled for the task
+Skipping task ':app:createDebugCompatibleScreenManifests' as it is up-to-date.
+Resolve mutations for :app:extractDeepLinksDebug (Thread[#4398,Execution worker Thread 3,5,main]) started.
+:app:extractDeepLinksDebug (Thread[#4398,Execution worker Thread 3,5,main]) started.
+
+> Task :app:extractDeepLinksDebug UP-TO-DATE
+Caching disabled for task ':app:extractDeepLinksDebug' because:
+  Build cache is disabled
+Skipping task ':app:extractDeepLinksDebug' as it is up-to-date.
+Resolve mutations for :app:processDebugMainManifest (Thread[#4398,Execution worker Thread 3,5,main]) started.
+:app:processDebugMainManifest (Thread[#4398,Execution worker Thread 3,5,main]) started.
+
+> Task :app:processDebugMainManifest UP-TO-DATE
+Caching disabled for task ':app:processDebugMainManifest' because:
+  Build cache is disabled
+Skipping task ':app:processDebugMainManifest' as it is up-to-date.
+Resolve mutations for :app:processDebugManifest (Thread[#4398,Execution worker Thread 3,5,main]) started.
+:app:processDebugManifest (Thread[#4398,Execution worker Thread 3,5,main]) started.
+
+> Task :app:processDebugManifest UP-TO-DATE
+Caching disabled for task ':app:processDebugManifest' because:
+  Build cache is disabled
+Skipping task ':app:processDebugManifest' as it is up-to-date.
+Resolve mutations for :app:processDebugManifestForPackage (Thread[#4398,Execution worker Thread 3,5,main]) started.
+:app:processDebugManifestForPackage (Thread[#4398,Execution worker Thread 3,5,main]) started.
+
+> Task :app:processDebugManifestForPackage UP-TO-DATE
+Custom actions are attached to task ':app:processDebugManifestForPackage'.
+Caching disabled for task ':app:processDebugManifestForPackage' because:
+  Build cache is disabled
+Skipping task ':app:processDebugManifestForPackage' as it is up-to-date.
+Resolve mutations for :app:processDebugResources (Thread[#4398,Execution worker Thread 3,5,main]) started.
+:app:processDebugResources (Thread[#4398,Execution worker Thread 3,5,main]) started.
+
+> Task :app:processDebugResources UP-TO-DATE
+Caching disabled for task ':app:processDebugResources' because:
+  Build cache is disabled
+Skipping task ':app:processDebugResources' as it is up-to-date.
+Resolve mutations for :app:kspDebugKotlin (Thread[#4398,Execution worker Thread 3,5,main]) started.
+:app:kspDebugKotlin (Thread[#4398,Execution worker Thread 3,5,main]) started.
+
+> Task :app:kspDebugKotlin UP-TO-DATE
+file or directory '/Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/src/debug/kotlin', not found
+file or directory '/Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/src/debug/java', not found
+file or directory '/Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/src/main/kotlin', not found
+file or directory '/Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/src/debug/kotlin', not found
+file or directory '/Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/src/debug/java', not found
+file or directory '/Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/src/main/kotlin', not found
+Caching disabled for task ':app:kspDebugKotlin' because:
+  Build cache is disabled
+Skipping task ':app:kspDebugKotlin' as it is up-to-date.
+Resolve mutations for :app:compileDebugKotlin (Thread[#4398,Execution worker Thread 3,5,main]) started.
+:app:compileDebugKotlin (Thread[#4398,Execution worker Thread 3,5,main]) started.
+
+> Task :app:compileDebugKotlin
+Caching disabled for task ':app:compileDebugKotlin' because:
+  Build cache is disabled
+Task ':app:compileDebugKotlin' is not up-to-date because:
+  Input property 'classpathSnapshotProperties.classpathSnapshot' file /Users/iamthanhloc/.gradle/caches/9.2.1/transforms/03be851556dc2e6062cfebf899041bfc/transformed/R_jar-snapshot.bin has been removed.
+  Input property 'classpathSnapshotProperties.classpathSnapshot' file /Users/iamthanhloc/.gradle/caches/9.2.1/transforms/41025368bdf5d8f8edca2330c1f31697/transformed/R_jar-snapshot.bin has been added.
+  Input property 'classpathSnapshotProperties.classpathSnapshot' file /Users/iamthanhloc/.gradle/caches/9.2.1/transforms/29879eee1ba90c8ed61793108e59718e/transformed/biometric-1_2_0-alpha05-api_jar-snapshot.bin has been removed.
+  and more...
+file or directory '/Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/src/debug/kotlin', not found
+file or directory '/Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/src/debug/kotlin', not found
+file or directory '/Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/src/debug/java', not found
+file or directory '/Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/src/debug/kotlin', not found
+file or directory '/Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/src/debug/java', not found
+file or directory '/Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/src/main/kotlin', not found
+file or directory '/Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/src/main/kotlin', not found
+file or directory '/Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/src/main/kotlin', not found
+file or directory '/Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/src/debug/java', not found
+file or directory '/Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/src/debug/kotlin', not found
+file or directory '/Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/src/debug/kotlin', not found
+file or directory '/Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/src/debug/java', not found
+file or directory '/Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/src/debug/kotlin', not found
+file or directory '/Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/src/debug/java', not found
+file or directory '/Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/src/main/kotlin', not found
+file or directory '/Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/src/main/kotlin', not found
+file or directory '/Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/src/main/kotlin', not found
+file or directory '/Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/src/debug/java', not found
+file or directory '/Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/src/debug/kotlin', not found
+file or directory '/Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/src/debug/kotlin', not found
+file or directory '/Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/src/debug/java', not found
+file or directory '/Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/src/debug/kotlin', not found
+file or directory '/Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/src/debug/java', not found
+file or directory '/Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/src/main/kotlin', not found
+file or directory '/Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/src/main/kotlin', not found
+file or directory '/Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/src/main/kotlin', not found
+file or directory '/Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/src/debug/java', not found
+file or directory '/Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/src/debug/kotlin', not found
+file or directory '/Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/src/debug/kotlin', not found
+file or directory '/Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/src/debug/java', not found
+file or directory '/Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/src/debug/kotlin', not found
+file or directory '/Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/src/debug/java', not found
+file or directory '/Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/src/main/kotlin', not found
+file or directory '/Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/src/main/kotlin', not found
+file or directory '/Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/src/main/kotlin', not found
+file or directory '/Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/src/debug/java', not found
+Kotlin source files: /Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/src/main/java/com/stampcollect/ui/viewmodel/CollectionViewModel.kt, /Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/src/main/java/com/stampcollect/ui/viewmodel/BaseViewModel.kt, /Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/src/main/java/com/stampcollect/ui/navigation/AppNavigation.kt, /Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/src/main/java/com/stampcollect/ui/screens/CollectionDetailScreen.kt, /Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/src/main/java/com/stampcollect/ui/screens/CameraScreen.kt, /Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/src/main/java/com/stampcollect/ui/screens/StampDetailScreen.kt, /Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/src/main/java/com/stampcollect/ui/screens/DayStampsScreen.kt, /Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/src/main/java/com/stampcollect/ui/screens/CalendarScreen.kt, /Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/src/main/java/com/stampcollect/ui/screens/HomeScreen.kt, /Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/src/main/java/com/stampcollect/ui/screens/MainScreen.kt, /Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/src/main/java/com/stampcollect/ui/theme/Color.kt, /Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/src/main/java/com/stampcollect/ui/theme/Theme.kt, /Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/src/main/java/com/stampcollect/ui/theme/Type.kt, /Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/src/main/java/com/stampcollect/MainActivity.kt, /Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/src/main/java/com/stampcollect/di/AppModule.kt, /Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/src/main/java/com/stampcollect/util/StampImageHelper.kt, /Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/src/main/java/com/stampcollect/util/StampShareHelper.kt, /Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/src/main/java/com/stampcollect/util/EncryptUtil.kt, /Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/src/main/java/com/stampcollect/util/LocationHelper.kt, /Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/src/main/java/com/stampcollect/TempCollectApplication.kt, /Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/src/main/java/com/stampcollect/data/repository/StampRepository.kt, /Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/src/main/java/com/stampcollect/data/repository/Resource.kt, /Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/src/main/java/com/stampcollect/data/entity/StampEntity.kt, /Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/src/main/java/com/stampcollect/data/entity/CategoryEntity.kt, /Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/src/main/java/com/stampcollect/data/entity/CollectionEntity.kt, /Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/src/main/java/com/stampcollect/data/dao/StampDao.kt, /Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/src/main/java/com/stampcollect/data/dao/CollectionDao.kt, /Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/src/main/java/com/stampcollect/data/dao/CategoryDao.kt, /Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/src/main/java/com/stampcollect/data/exceptions/AppException.kt, /Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/src/main/java/com/stampcollect/data/StampDatabase.kt
+Java source files: /Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/build/generated/ksp/debug/java/dagger/hilt/internal/aggregatedroot/codegen/_com_stampcollect_StampCollectApplication.java, /Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/build/generated/ksp/debug/java/hilt_aggregated_deps/_com_stampcollect_StampCollectApplication_GeneratedInjector.java, /Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/build/generated/ksp/debug/java/hilt_aggregated_deps/_com_stampcollect_ui_viewmodel_CollectionViewModel_HiltModules_BindsModule.java, /Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/build/generated/ksp/debug/java/hilt_aggregated_deps/_com_stampcollect_di_AppModule.java, /Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/build/generated/ksp/debug/java/hilt_aggregated_deps/_com_stampcollect_MainActivity_GeneratedInjector.java, /Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/build/generated/ksp/debug/java/hilt_aggregated_deps/_com_stampcollect_ui_viewmodel_CollectionViewModel_HiltModules_KeyModule.java, /Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/build/generated/ksp/debug/java/com/stampcollect/ui/viewmodel/CollectionViewModel_HiltModules_KeyModule_ProvideFactory.java, /Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/build/generated/ksp/debug/java/com/stampcollect/ui/viewmodel/CollectionViewModel_HiltModules.java, /Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/build/generated/ksp/debug/java/com/stampcollect/ui/viewmodel/CollectionViewModel_Factory.java, /Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/build/generated/ksp/debug/java/com/stampcollect/Hilt_MainActivity.java, /Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/build/generated/ksp/debug/java/com/stampcollect/di/AppModule_ProvideStampDatabaseFactory.java, /Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/build/generated/ksp/debug/java/com/stampcollect/di/AppModule_ProvideCategoryDaoFactory.java, /Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/build/generated/ksp/debug/java/com/stampcollect/di/AppModule_ProvideCollectionDaoFactory.java, /Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/build/generated/ksp/debug/java/com/stampcollect/di/AppModule_ProvideStampDaoFactory.java, /Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/build/generated/ksp/debug/java/com/stampcollect/MainActivity_GeneratedInjector.java, /Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/build/generated/ksp/debug/java/com/stampcollect/data/repository/StampRepository_Factory.java, /Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/build/generated/ksp/debug/java/com/stampcollect/data/dao/CategoryDao_Impl.java, /Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/build/generated/ksp/debug/java/com/stampcollect/data/dao/StampDao_Impl.java, /Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/build/generated/ksp/debug/java/com/stampcollect/data/dao/CollectionDao_Impl.java, /Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/build/generated/ksp/debug/java/com/stampcollect/data/StampDatabase_Impl.java, /Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/build/generated/ksp/debug/java/com/stampcollect/StampCollectApplication_GeneratedInjector.java
+Script source files: 
+Script file extensions: 
+Using Kotlin/JVM incremental compilation
+[KOTLIN] Kotlin compilation 'jdkHome' argument: null
+i: found daemon on port 17098 (2115548 ms old), trying to connect
+i: connected to the daemon
+Options for KOTLIN DAEMON: IncrementalCompilationOptions(super=CompilationOptions(compilerMode=INCREMENTAL_COMPILER, targetPlatform=JVM, reportCategories=[0, 3], reportSeverity=2, requestedCompilationResults=[0], kotlinScriptExtensions=[]), areFileChangesKnown=true, modifiedFiles=[/Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/src/main/java/com/stampcollect/MainActivity.kt, /Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/src/main/java/com/stampcollect/data/StampDatabase.kt, /Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/src/main/java/com/stampcollect/data/dao/CollectionDao.kt, /Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/src/main/java/com/stampcollect/data/dao/StampDao.kt, /Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/src/main/java/com/stampcollect/data/entity/CollectionEntity.kt, /Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/src/main/java/com/stampcollect/data/entity/StampEntity.kt, /Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/src/main/java/com/stampcollect/data/repository/StampRepository.kt, /Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/src/main/java/com/stampcollect/di/AppModule.kt, /Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/src/main/java/com/stampcollect/ui/screens/CameraScreen.kt, /Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/src/main/java/com/stampcollect/ui/screens/HomeScreen.kt, /Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/src/main/java/com/stampcollect/ui/screens/MainScreen.kt, /Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/src/main/java/com/stampcollect/ui/screens/StampDetailScreen.kt, /Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/src/main/java/com/stampcollect/ui/viewmodel/CollectionViewModel.kt, /Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/src/main/java/com/stampcollect/util/StampImageHelper.kt, /Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/src/main/java/com/stampcollect/data/dao/CategoryDao.kt, /Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/src/main/java/com/stampcollect/data/entity/CategoryEntity.kt, /Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/build/generated/ksp/debug/java/com/stampcollect/Hilt_MainActivity.java, /Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/build/generated/ksp/debug/java/com/stampcollect/data/StampDatabase_Impl.java, /Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/build/generated/ksp/debug/java/com/stampcollect/data/dao/CollectionDao_Impl.java, /Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/build/generated/ksp/debug/java/com/stampcollect/data/dao/StampDao_Impl.java, /Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/build/generated/ksp/debug/java/com/stampcollect/data/repository/StampRepository_Factory.java, /Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/build/generated/ksp/debug/java/com/stampcollect/data/dao/CategoryDao_Impl.java, /Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/build/generated/ksp/debug/java/com/stampcollect/di/AppModule_ProvideCategoryDaoFactory.java, /Users/iamthanhloc/.gradle/caches/9.2.1/transforms/41025368bdf5d8f8edca2330c1f31697/transformed/R_jar-snapshot.bin], deletedFiles=[/Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/src/main/java/com/stampcollect/util/BiometricKeystoreManager.kt, /Users/iamthanhloc/.gradle/caches/9.2.1/transforms/03be851556dc2e6062cfebf899041bfc/transformed/R_jar-snapshot.bin, /Users/iamthanhloc/.gradle/caches/9.2.1/transforms/29879eee1ba90c8ed61793108e59718e/transformed/biometric-1_2_0-alpha05-api_jar-snapshot.bin], classpathChanges=ToBeComputedByIncrementalCompiler, workingDir=/Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/build/kotlin/compileDebugKotlin/cacheable, multiModuleICSettings=MultiModuleICSettings(buildHistoryFile=/Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/build/kotlin/compileDebugKotlin/local-state/build-history.bin, useModuleDetection=true), usePreciseJavaTracking=true, outputFiles=[/Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/build/tmp/kotlin-classes/debug, /Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/build/kotlin/compileDebugKotlin/cacheable, /Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/build/kotlin/compileDebugKotlin/local-state])
+e: file:///Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/src/main/java/com/stampcollect/MainActivity.kt:26:32 Unresolved reference: Modifier
+e: file:///Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/src/main/java/com/stampcollect/ui/screens/HomeScreen.kt:72:30 Property delegate must have a 'getValue(Nothing?, KProperty<*>)' method. None of the following functions is suitable: 
+public inline operator fun <T> State<Nothing?>.getValue(thisObj: Any?, property: KProperty<*>): Nothing? defined in androidx.compose.runtime
+e: file:///Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/src/main/java/com/stampcollect/ui/screens/HomeScreen.kt:72:30 Property delegate must have a 'setValue(Nothing?, KProperty<*>, [Error type: Error delegation type for remember { mutableStateOf<CollectionEntity?>(null) }])' method. None of the following functions is suitable: 
+public inline operator fun <T> MutableState<Nothing?>.setValue(thisObj: Any?, property: KProperty<*>, value: Nothing?): Unit defined in androidx.compose.runtime
+e: file:///Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/src/main/java/com/stampcollect/ui/screens/HomeScreen.kt:72:56 Unresolved reference: CollectionEntity
+e: file:///Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/src/main/java/com/stampcollect/ui/screens/HomeScreen.kt:126:33 Val cannot be reassigned
+e: file:///Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/src/main/java/com/stampcollect/ui/screens/HomeScreen.kt:239:29 Unresolved reference: allStampsRes
+e: file:///Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/src/main/java/com/stampcollect/ui/screens/HomeScreen.kt:239:52 Not enough information to infer type variable T
+e: file:///Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/src/main/java/com/stampcollect/ui/screens/HomeScreen.kt:254:44 Unresolved reference: it
+e: file:///Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/src/main/java/com/stampcollect/ui/screens/HomeScreen.kt:399:17 Unresolved reference: CollectionEntity
+e: file:///Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/src/main/java/com/stampcollect/ui/screens/HomeScreen.kt:400:22 Unresolved reference: StampEntity
+e: file:///Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/src/main/java/com/stampcollect/ui/screens/HomeScreen.kt:462:54 Cannot infer a type for this parameter. Please specify it explicitly.
+e: file:///Users/iamthanhloc/AndroidStudioProjects/TempCollect/app/src/main/java/com/stampcollect/ui/screens/HomeScreen.kt:465:41 @Composable invocations can only happen from the context of a @Composable function
+Restoring task outputs to pre-compilation state
+
+> Task :app:compileDebugKotlin FAILED
+
+[Incubating] Problems report is available at: file:///Users/iamthanhloc/AndroidStudioProjects/TempCollect/build/reports/problems/problems-report.html
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:compileDebugKotlin'.
+> A failure occurred while executing org.jetbrains.kotlin.compilerRunner.GradleCompilerRunnerWithWorkers$GradleKotlinCompilerWorkAction
+   > Compilation error. See log for more details
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --debug option to get more log output.
+> Run with --scan to generate a Build Scan (powered by Develocity).
+> Get more help at https://help.gradle.org.
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 10.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/9.2.1/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD FAILED in 4s
+16 actionable tasks: 2 executed, 14 up-to-date
+Watched directory hierarchies: [/Users/iamthanhloc/AndroidStudioProjects/TempCollect]

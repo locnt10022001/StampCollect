@@ -1,0 +1,19 @@
+[2026-04-09T10:23:59.732Z] Stdin closed, exiting.
+[2026-04-09T10:24:26.784Z] Server started. Token present: YES (starts with sk-lm-...)
+[2026-04-09T10:24:26.788Z] Handling request: tools/call (id: 1)
+[2026-04-09T10:24:26.788Z] Calling LM Studio with prompt: "Chào..."
+[2026-04-09T10:24:26.812Z] Stdin closed, exiting.
+[2026-04-09T10:25:13.702Z] Server started. Token present: YES (starts with sk-lm-...)
+[2026-04-09T10:25:13.706Z] Handling request: tools/call (id: 1)
+[2026-04-09T10:25:13.706Z] Calling LM Studio with prompt: "Chào..."
+[2026-04-09T10:25:13.763Z] Stdin closed.
+[2026-04-09T10:25:13.788Z] LM Studio response status: 400
+[2026-04-09T10:25:13.789Z] LM Studio Error Body: {
+    "error": {
+        "message": "No models loaded. Please load a model in the developer page or use the 'lms load' command.",
+        "type": "invalid_request_error",
+        "param": "model",
+        "code": null
+    }
+}
+[2026-04-09T10:25:13.789Z] Error: LM Studio returned status 400
